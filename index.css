@@ -1,21 +1,22 @@
 body{
-    background-image: linear-gradient(to left,orange,black);
+    background-image: linear-gradient(to left,black,grey);
 }
 
 
 
 
 .titulo{
+   
     background-color: black;
     background-image: url(fogo.gif);
     background-clip: text;
     color: transparent;
-    
+    margin-bottom: -50px;
     display: flex;
     justify-content: center;
     text-align: center;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 50px;
 
 }
 
@@ -32,20 +33,56 @@ p{
 
 #img1{
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    margin-top: 50px;
+    margin-top: 70px;
+    color: red;
+ 
+   
 }
 
-img{
+#curiosidade{
+    position: absolute;
+    margin-top: -50px;
+}
+
+
+
+#foto:hover{
+    transform: scale(1.05);
+    box-shadow: 20px 20px 20px black;
+}
+
+#foto{
     height: 550px;
     width: 550px;
+    transition: all 0.5s linear;
+    border: 10px solid black;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
 }
 
 .bio{
+    
     color: white;
+    
+}
+
+#texto{
+    background-color: grey;
+    margin-right: 10px;
+}
+
+h2{
+    font-weight: bolder;
+    text-align: center;
 }
 
 ul{
+    background-color: black;
+    width: 300px;
+    margin-left: 50px;
     color: red;
     font-size: 25px;
 }
