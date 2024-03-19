@@ -1,15 +1,51 @@
+body{
+    background-image: linear-gradient(to left,orange,black);
+}
+
+
+
+
 .titulo{
+    background-color: black;
+    background-image: url(fogo.gif);
+    background-clip: text;
+    color: transparent;
+    
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+
 }
 
 p{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -550px;
+    font-size: 50px;
+   
     display: flex;
     justify-content: center;
+ 
 }
 
 #img1{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+img{
+    height: 550px;
+    width: 550px;
+}
+
+.bio{
+    color: white;
+}
+
+ul{
+    color: red;
+    font-size: 25px;
 }
