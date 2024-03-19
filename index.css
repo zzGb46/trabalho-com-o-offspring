@@ -1,0 +1,15 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+}
+
+#img1{
+    display: flex;
+    justify-content: center;
+}
